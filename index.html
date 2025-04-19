@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brew & Bloom Café</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: wheat;
+      color: black;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    header {
+      background-color: saddlebrown;
+      padding: 20px;
+      color: white;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .hero {
+      background-image: url('https://source.unsplash.com/1600x600/?coffee,cafe');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+      font-size: 2.8em;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .content h2 {
+      font-size: 2.2em;
+      color: saddlebrown;
+      margin-bottom: 10px;
+    }
+
+    .content p {
+      font-size: 1.2em;
+      color: black;
+    }
+
+    .section {
+      margin-top: 60px;
+      background-color: beige;
+      border-radius: 10px;
+      padding: 30px 20px;
+      box-shadow: 2px 2px 15px silver;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section h3 {
+      font-size: 1.8em;
+      color: saddlebrown;
+      margin-bottom: 15px;
+    }
+
+    .section p {
+      font-size: 1.1em;
+      color: black;
+      line-height: 1.8;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 450px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 2px 2px 15px gray;
+    }
+
+    iframe {
+      margin-top: 20px;
+      width: 90%;
+      max-width: 1000px;
+      height: 500px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 12px gray;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 2px 2px 15px gray;
+      margin-top: 20px;
+    }
+
+    .testimonial {
+      background-color: lightgoldenrodyellow;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    .testimonial p {
+      font-size: 1.2em;
+      font-style: italic;
+      color: black;
+    }
+
+    .testimonial span {
+      font-size: 1.1em;
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+      color: saddlebrown;
+    }
+
+    .special-offers {
+      margin-top: 50px;
+      background-color: beige;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .special-offers h3 {
+      font-size: 1.8em;
+      color: saddlebrown;
+      margin-bottom: 10px;
+    }
+
+    .special-offers ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .special-offers li {
+      font-size: 1.2em;
+      color: black;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Brew & Bloom Café</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    Welcome to Brew & Bloom
+  </div>
+
+  <div class="content">
+    <h2>Welcome to Our Cozy Haven</h2>
+    <p>At Brew & Bloom, we bring you the perfect blend of coffee, cozy ambiance, and a warm atmosphere. Whether you’re here for your morning espresso or to unwind with a cup of tea, we promise an experience that delights all your senses.</p>
+  </div>
+
+  <!-- Image Section -->
+  <div class="content">
+    <h2>Our Cozy Space</h2>
+    <img 
+      src="https://media.istockphoto.com/id/1365312463/photo/modern-cafe-restaurant-interior-with-yellow-chair-against-window-with-city-view.webp?a=1&b=1&s=612x612&w=0&k=20&c=dsNHrJuTll5Yelv3yJKodRjnmLCvZ89icDyIe9hdyV0=" 
+      alt="Cozy café interior"
+      style="width: 100%; max-width: 1200px; height: auto; display: block; margin: 20px auto; border-radius: 10px; box-shadow: 3px 3px 18px gray;"
+    >
+  </div>
+
+  <!-- Video Section -->
+  <div class="content">
+    <h2>Take a Virtual Tour</h2>
+    <iframe src="https://www.youtube.com/embed/2p-dQoTdDcA" allowfullscreen></iframe>
+  </div>
+
+  <!-- Special Offers -->
+  <div class="special-offers">
+    <h3>Special Offers This Week</h3>
+    <ul>
+      <li>Buy one, get one free on all lattes!</li>
+      <li>20% off your first pastry purchase</li>
+      <li>Happy Hour: 4 PM - 6 PM: Discounted Drinks</li>
+    </ul>
+  </div>
+
+  <!-- Testimonial Section -->
+  <div class="testimonial">
+    <p>"The best café I've ever visited! The atmosphere is perfect, and the coffee is divine. Brew & Bloom is my go-to place to relax and enjoy great coffee!"</p>
+    <span>- Emma, Local Resident</span>
+  </div>
+
+  <!-- About Section -->
+  <div class="section">
+    <h3>About Us</h3>
+    <p><strong>Brew & Bloom</strong> is more than just a café — it's a peaceful space where warmth meets flavor. We’re proud to be your happy place with handcrafted drinks, friendly staff, and a cozy atmosphere that feels like home.</p>
+  </div>
+
+  <!-- Why You’ll Love Us -->
+  <div class="section">
+    <h3>Why You'll Love Us</h3>
+    <p>Freshly brewed coffee from local beans<br>
+       Homemade pastries and seasonal treats<br>
+       Calming music, floral decor, and comfy seating<br>
+       Free Wi-Fi and charging spots<br>
+       Eco-conscious with reusable materials</p>
+  </div>
+
+  <!-- Gallery -->
+  <div class="section">
+    <h3>Glimpse of Our Space</h3>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cozy Café">
+    <img src="https://images.unsplash.com/photo-1448316998199-a2aaf2b5d4a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmUlMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Coffee Table">
+    <img src="https://plus.unsplash.com/premium_photo-1664365205066-2e5cccec123b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZyZXNoJTIwcGFzdHJpZXMlMjBpbiUyMGNhZmZlfGVufDB8fDB8fHww" alt="Fresh Pastries">
+    </div>
+  </div>
+
+  <!-- Another Video Tour -->
+  <div class="section">
+    <h3>A Video About Us</h3>
+    <iframe src="https://www.youtube.com/embed/2p-dQoTdDcA" allowfullscreen></iframe>
+  </div>
+
+  <!-- Final Section: Visit Us -->
+  <div class="section">
+    <h3>Come Visit Us!</h3>
+    <p>Located in the heart of the city, Brew & Bloom Café is your cozy escape from the hustle and bustle. Whether you're looking for a quick caffeine fix or a place to unwind with friends, we’ve got you covered.</p>
+  </div>
+
+</body>
+</html>
